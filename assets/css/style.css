@@ -1,0 +1,38 @@
+/*
+  MAIN CONTENT
+*/
+.body {
+  background-color: #F0FFFF;
+}
+
+.container-50 {
+  width: 30%;
+  margin-top: 2%;
+}
+@media screen (min-width: 300px) {
+  .container-50 {
+    width: 100%;
+    padding: 0; }
+}
+@media screen (min-width: 550px) {
+  .container-50 {
+    width: 100%; }
+  }
+.online {
+  color: #008000;
+
+}
+
+.offline {
+  color: #FF0000;
+
+}
+
+.online, .offline {
+  //margin-right: 30%;
+}
+
+.small-grey {
+  font-size: 1.4rem;
+  color: #d3d3d3;
+}
